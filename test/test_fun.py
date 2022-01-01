@@ -1,6 +1,6 @@
 import unittest
 from python_repo import fun
 
-class TestFun(unittest.Testcase):
+class TestFun(unittest.TestCase):
   def test_3_4(self):
-    assert_equal(7,ff.ff(3,4)) 
+    self.assert_equal(7,fun.ff(3,4)) 

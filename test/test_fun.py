@@ -1,5 +1,5 @@
 import unittest
-from python_repo import fun
+import fun
 
 class TestFun(unittest.TestCase):
   def test_3_4(self):
